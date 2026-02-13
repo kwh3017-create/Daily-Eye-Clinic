@@ -181,7 +181,7 @@ a {
 }
 .frame-cyan,
 .frame-purple {
-  width: 480px;
+  width: 560px;
   height: 400px;
   border: 4px solid;
   border-bottom: none;
@@ -223,6 +223,14 @@ a {
   display: block;
 }
 
+img.left-img
+{
+  width: 500px;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
 
 .hero-card-title {
   font-size: 50px;
@@ -233,7 +241,6 @@ a {
 
 .hero-card-text {
   font-size: 30px;
-  line-height: 1.7;
   opacity: 0.9;
   margin-top: 20px;
 }
