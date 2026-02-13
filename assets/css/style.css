@@ -258,6 +258,10 @@ img.left-img
   overflow: hidden;
 }
 
+.hero-br{
+  text-align: right;
+}
+
 .hero-stat-container {
   position: relative;
   z-index: 1;
@@ -283,7 +287,7 @@ img.left-img
 }
 
 .hero-stat-panel {
-  max-width: 900px;
+  max-width: 1060px;
   margin: 0 auto;
   background: rgba(120, 133, 160, 0.65);
   border: 1px solid rgba(255, 255, 255, 0.35);
@@ -304,17 +308,17 @@ img.left-img
 }
 
 .hero-stat-label {
-  font-size: 14px;
+  font-size: 24px;
   margin-bottom: 12px;
   opacity: 0.8;
 }
 
 .hero-stat-value {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .hero-stat-impact {
-  font-size: 40px;
+  font-size: 57px;
   font-weight: 300;
   color: #a9d5e5;
 }
@@ -983,7 +987,7 @@ img.left-img
   .doctor-section{
     background-position: 20% center;
   }
-  .doctor-inner {
+  .doctor-container {
     padding: 70px 20px;
   }
 
@@ -1023,6 +1027,11 @@ img.left-img
   .service-card-text {
     font-size: 13px;
   }
+
+
+  /* doctor height override (responsive) */
+  .doctor-section{ min-height: auto !important; height: auto; }
+  .doctor-container{ min-height: auto !important; height: auto; }
 }
 
 @media (max-width:1024px){
@@ -1099,7 +1108,7 @@ img.left-img
   .doctor-section{
     background-position: 25% center;
   }
-  .doctor-inner {
+  .doctor-container {
     padding: 60px 20px;
   }
 
@@ -1210,6 +1219,11 @@ img.left-img
   .faq-answer-text {
     font-size: 13px;
   }
+
+
+  /* doctor height override (responsive) */
+  .doctor-section{ min-height: auto !important; height: auto; }
+  .doctor-container{ min-height: auto !important; height: auto; }
 }
 
 @media (max-width:768px){
@@ -1674,7 +1688,7 @@ img.left-img
     background-position: 12% center;
   }
 
-  .doctor-inner{
+  .doctor-container{
     padding: 40px 15px;
     min-height: auto;
   }
@@ -1922,7 +1936,7 @@ img.left-img
     min-height: 50vh;
   }
 
-  .doctor-inner{
+  .doctor-container{
     padding: 30px 15px;
   }
 
@@ -2145,5 +2159,33 @@ img.left-img
   }
   .form-submit-row {
     align-items: center;
+  }
+}
+
+
+.hero-stat-panel{
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+.hero-stat-row{
+  gap: 18px;
+}
+
+.hero-stat-box{
+  border: 1px solid rgba(255,255,255,0.35) !important;
+  background: transparent;
+}
+
+.hero-stat-box::before{
+  content: none !important;
+}
+
+@media (max-width:540px){
+  .hero-stat-row{
+    gap: 14px;
+  }
+  .hero-stat-box{
+    border: 1px solid rgba(255,255,255,0.35) !important;
   }
 }
