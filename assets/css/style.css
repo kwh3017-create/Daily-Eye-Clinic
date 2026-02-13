@@ -875,20 +875,11 @@ img.left-img
 }
 
 .footer-text {
-  font-size: 15px;
+  font-size: 18px;
   color: #bbbbbb;
   text-align: center;
   line-height: 1.8;
 }
-
-
-.footer-text{
-  font-size: 12px;
-  line-height: 1.8;
-}
-
-
-
 
 .faq-acc .faq-item{
   cursor: pointer;
