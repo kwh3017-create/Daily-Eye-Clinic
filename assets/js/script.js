@@ -1,15 +1,17 @@
 $(function () {
-  $(".faq-list").on("click", ".faq-item", function () {
 
-    const acc = $(this).closest(".faq-acc");
+  $(".faq-item").on("click", function () {
 
-    $(".faq-acc").not(acc)
-      .removeClass("is-open")
-      .find(".faq-panel").stop(true,true).slideUp(200);
+    let item  = $(this).closest(".faq-acc");
+    let isOpen = item.hasClass("is-open");
 
-    acc.toggleClass("is-open")
-        .find(".faq-panel").stop(true,true).slideToggle(200);
+    if (isOpen) {
+      item.removeClass("is-open");
+    } else {
+      $(".faq-acc").removeClass("is-open");
+      item.addClass("is-open");
+    }
 
   });
-});
 
+});

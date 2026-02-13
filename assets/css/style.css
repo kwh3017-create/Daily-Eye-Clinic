@@ -55,9 +55,9 @@ a {
   width: 190px;
   height: 60px;
   display: inline-block;
-  padding: 10px 28px;
+  padding: 20px 28px;
   border: 1px solid #000;
-  font-size: 13px;
+  font-size: 18px;
   color: var(--color-bg-base);
   text-decoration: none;
   background-color: #000;
@@ -182,7 +182,7 @@ a {
 }
 .frame-cyan,
 .frame-purple {
-  width: 560px;
+  width: 600px;
   height: 400px;
   border: 4px solid;
   border-bottom: none;
@@ -226,7 +226,7 @@ a {
 
 img.left-img
 {
-  width: 500px;
+  width: 400px;
   height: 100%;
   object-fit: contain;
   object-position: center;
@@ -452,7 +452,7 @@ img.left-img
 .service-card {
   flex: 1;
   max-width: 350px;
-  min-height: 300px;
+  min-height: 400px;
   padding: 34px 22px;
   display: flex;
   flex-direction: column;
@@ -472,28 +472,38 @@ img.left-img
 
 
 .service-card-title {
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 12px;
 }
 
 .service-card-text {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.7;
   margin-bottom: 20px;
 }
 
-.service-tag-row {
-  display: flex;
-  flex-wrap: wrap;
+.service-tag-row{
+  display:flex;
+  flex-wrap:wrap;
   gap: 8px 10px;
 }
+
+.service-tag-row .service-tag{
+  display :flex;          
+  justify-content:center;
+  align-items:center;
+  box-sizing:border-box;
+}
+
+
+
 
 .service-tag {
   display: inline-block;
   padding: 6px 14px;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 17px;
   background-color: rgba(255, 255, 255, 0.2);
   color: #ffffff;
 }
@@ -2125,10 +2135,14 @@ img.left-img
     padding: 16px 0;
   }
 
+  .btn-submit-icon
+  {
+    font-size: 16px;
+  }
   
 .contact-info .contact-info-value
 {
-  font-size: 10px; 
+  font-size: 12px; 
 }
 
 .footer-text{
