@@ -225,14 +225,14 @@ a {
 
 
 .hero-card-title {
-  font-size: 30px;
+  font-size: 50px;
   margin-bottom: 8px;
   margin-top: -60px;
-  margin-left: -30px;
+
 }
 
 .hero-card-text {
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.7;
   opacity: 0.9;
   margin-top: 20px;
