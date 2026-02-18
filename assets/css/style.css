@@ -1741,7 +1741,7 @@ img.left-img
 
   /* doctor-bottom */
   .doctor-bottom {
-    padding: 30px 0 50px;
+    padding: 30px 0 30px;
   }
 
   .doctor-bottom-main {
@@ -1817,7 +1817,7 @@ img.left-img
   }
 
   .service-tag {
-    font-size: 11px;
+    font-size: 14px;
     padding: 6px 12px;
   }
 
