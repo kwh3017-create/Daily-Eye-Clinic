@@ -996,6 +996,10 @@ img.left-img
     margin-left: 40px;
   }
 
+  .doctor-list{
+    font-size: 28px;
+  }
+
   /* doctor-bottom */
   .doctor-bottom-main {
     font-size: 45px;
@@ -1015,7 +1019,7 @@ img.left-img
   }
 
   .service-card {
-    max-width: 330px;
+    max-width: 340px;
     min-height: 280px;
     padding: 30px 20px;
   }
@@ -1113,16 +1117,15 @@ img.left-img
   }
 
   .doctor-text {
-    max-width: 440px;
     margin-left: 30px;
   }
 
   .doctor-eyebrow {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .doctor-name {
-    font-size: 42px;
+    font-size: 45px;
   }
 
   .doctor-name-small {
@@ -1130,8 +1133,7 @@ img.left-img
   }
 
   .doctor-list {
-    font-size: 17px;
-    line-height: 1.9;
+    font-size: 18px;
   }
 
   /* doctor-bottom */
@@ -1175,7 +1177,7 @@ img.left-img
   }
 
   .service-tag {
-    font-size: 11px;
+    font-size: 18px;
     padding: 5px 12px;
   }
 
@@ -1200,12 +1202,18 @@ img.left-img
   }
 
   .faq-cta-btn {
+    width: 180px;
+    height: 60px;
     font-size: 15px;
     padding: 9px 20px;
   }
 
+  .faq-cta-arrow{
+    font-size: 17px;
+  }
+
   .faq-q {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .faq-plus {
@@ -1213,11 +1221,11 @@ img.left-img
   }
 
   .faq-answer-title {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .faq-answer-text {
-    font-size: 13px;
+    font-size: 15px;
   }
 
 
@@ -1298,7 +1306,7 @@ img.left-img
   .doctor-text {
     max-width: 100%;
     margin-left: 0;
-    margin-right: -100px;
+    margin-right: -35px;
     padding: 30px;
     border-radius: 12px;
   }
@@ -1317,13 +1325,11 @@ img.left-img
 
   .doctor-list {
     font-size: 16px;
-    line-height: 1.8;
   }
 
   /* doctor-bottom */
   .doctor-bottom-main {
     font-size: 35px;
-    line-height: 1.4;
   }
 
   .doctor-bottom-desc {
@@ -1333,8 +1339,8 @@ img.left-img
 
   .btn-outline {
     width: 170px;
-    font-size: 12px;
-    padding: 9px 24px;
+    font-size: 15px;
+    padding: 20px 24px;
   }
 
   .doctor-br
@@ -1390,7 +1396,7 @@ img.left-img
   }
 
   .service-tag {
-    font-size: 11px;
+    font-size: 14px;
     padding: 5px 11px;
   }
 
@@ -1405,7 +1411,7 @@ img.left-img
   }
 
   .faq-cta {
-    width: 150px;
+    width: 160px;
     margin-right: 40px;
   }
 
@@ -1415,7 +1421,8 @@ img.left-img
   }
 
   .faq-cta-btn {
-    font-size: 13px;
+    width: 160px;
+    font-size: 15px;
     padding: 8px 16px;
     gap: 35px;
   }
@@ -1429,7 +1436,7 @@ img.left-img
   }
 
   .faq-q {
-    font-size: 13px;
+    font-size: 17px;
   }
 
   .faq-plus {
@@ -1441,13 +1448,12 @@ img.left-img
   }
 
   .faq-answer-title {
-    font-size: 13px;
+    font-size: 17px;
     margin-bottom: 9px;
   }
 
   .faq-answer-text {
-    font-size: 12px;
-    line-height: 1.7;
+    font-size: 15px;
   }
 
 
@@ -1461,12 +1467,16 @@ img.left-img
     max-width: 100%;
     text-align: center;
   }
+  .contact-eyebrow{
+    font-size: 20px;
+  }
 
   .contact-title{
     font-size: 40px;
   }
 
   .contact-desc{
+    font-size: 20px;
     margin-bottom: 0;
   }
 
@@ -1582,6 +1592,10 @@ img.left-img
     align-items: center;
     gap: 14px;
   }
+
+  .contact-info-label{
+    font-size: 14px;
+  }
 }
 
 @media (max-width:540px){
@@ -1624,12 +1638,12 @@ img.left-img
 
   .hero-card-title
   {
-    margin-top: -10px;
+    margin-top: 10px;
   }
 
    .hero-card-text
   {
-    margin-top: -10px;
+    margin-top: 10px;
   }
 
   .hero{  
@@ -1689,13 +1703,12 @@ img.left-img
   }
 
   .doctor-container{
-    padding: 40px 15px;
+    padding: 0;
     min-height: auto;
   }
 
   .doctor-text{
-    padding: 25px;
-    margin-right: -250px;
+    padding: 20px;
   }
 
   .doctor-eyebrow{
@@ -1724,7 +1737,6 @@ img.left-img
 
   .doctor-list{
     font-size: 14px;
-    line-height: 1.7;
   }
 
   /* doctor-bottom */
@@ -1734,22 +1746,21 @@ img.left-img
 
   .doctor-bottom-main {
     font-size: 28px;
-    line-height: 1.5;
   }
 
   .doctor-bottom-desc {
     font-size: 14px;
-    line-height: 1.7;
     margin-bottom: 16px;
   }
 
-    .doctor-br.before{
-    display: none;
+  .doctor-br.before{
+   display: none;
   }
   .btn-outline {
-    width: 160px;
+    width: 140px;
+    height: 40px;
     font-size: 11px;
-    padding: 8px 20px;
+    padding: 12px 20px;
   }
 
   .service {
@@ -1842,7 +1853,7 @@ img.left-img
   }
 
   .faq-q {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .faq-plus {
@@ -1937,12 +1948,11 @@ img.left-img
   }
 
   .doctor-container{
-    padding: 30px 15px;
+    padding: 0;
   }
 
   .doctor-text{
-    padding: 20px;
-    margin-right: -160px;
+    padding-left: 20px;
   }
 
   .doctor-eyebrow{
@@ -1979,20 +1989,18 @@ img.left-img
 
   .doctor-bottom-main {
     font-size: 22px;
-    line-height: 1.6;
     margin-bottom: 14px;
   }
 
   .doctor-bottom-desc {
     font-size: 12px;
-    line-height: 1.8;
     margin-bottom: 14px;
   }
 
   .btn-outline {
     width: 150px;
-    font-size: 11px;
-    padding: 8px 18px;
+    font-size: 13px;
+    padding: 10px 18px;
   }
 
   .service {
@@ -2047,7 +2055,7 @@ img.left-img
   }
 
   .service-tag {
-    font-size: 10px;
+    font-size: 13px;
     padding: 5px 11px;
   }
 
@@ -2083,7 +2091,7 @@ img.left-img
   }
 
   .faq-q {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .faq-plus {
@@ -2096,13 +2104,12 @@ img.left-img
   }
 
   .faq-answer-title {
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 9px;
   }
 
   .faq-answer-text {
-    font-size: 11px;
-    line-height: 1.8;
+    font-size: 14px;
   }
 
 
@@ -2151,8 +2158,7 @@ img.left-img
 }
 
 .footer-text{
-    font-size: 11px;
-    line-height: 1.7;
+    font-size: 12px;
   }
   .btn-submit{
     width: 220px;
