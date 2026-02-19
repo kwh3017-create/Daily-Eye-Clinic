@@ -302,9 +302,6 @@ img.left-img
   border: 1px solid #fff;
 }
 
-.hero-stat-box:first-child {
-  border-left: none;
-}
 
 .hero-stat-label {
   font-size: 24px;
@@ -317,7 +314,7 @@ img.left-img
 }
 
 .hero-stat-impact {
-  font-size: 57px;
+  font-size: 63px;
   font-weight: 300;
   color: #a9d5e5;
 }
@@ -1126,7 +1123,7 @@ img.left-img
   }
 
   .doctor-eyebrow {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .doctor-name {
@@ -1138,7 +1135,7 @@ img.left-img
   }
 
   .doctor-list {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   /* doctor-bottom */
@@ -1647,13 +1644,9 @@ img.left-img
 
   .hero-stat-box{
     padding: 20px 18px;
-    border-left: none;
-    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border: 1px solid #fff;
   }
 
-  .hero-stat-box:first-child{
-    border-top: none;
-  }
 
   .hero-stat-label{ 
     font-size: 16px; 
@@ -1683,7 +1676,7 @@ img.left-img
 
   .doctor-text{
     width: 57%;
-    padding: 20px;
+    padding: 30px;
   }
 
   .doctor-eyebrow{
@@ -1985,7 +1978,7 @@ img.left-img
   }
 
   .btn-outline {
-    width: 150px;
+    width: 130px;
     font-size: 13px;
     padding: 15px 18px;
   }
@@ -2179,8 +2172,5 @@ img.left-img
 @media (max-width:540px){
   .hero-stat-row{
     gap: 14px;
-  }
-  .hero-stat-box{
-    border: 1px solid rgba(255,255,255,0.35) !important;
   }
 }
