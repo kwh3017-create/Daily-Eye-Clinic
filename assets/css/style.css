@@ -507,7 +507,7 @@ img.left-img
   display: inline-block;
   padding: 6px 14px;
   border-radius: 20px;
-  font-size: 17px;
+  font-size: 18px;
   background-color: rgba(255, 255, 255, 0.2);
   color: #ffffff;
 }
@@ -547,6 +547,8 @@ img.left-img
 }
 
 .faq-cta-btn {
+  width: 222px;
+  height: 60px;
   display: inline-flex;
   align-items: center;
   gap: 50px;
@@ -731,14 +733,14 @@ img.left-img
 }
 
 .contact-info-label {
-  font-size: 13px;
-  color: #888;
+  font-size: 15px;
+  color: #666;
   margin-bottom: 6px;
   font-weight: 400;
 }
 
 .contact-info-value {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: #222;
 }
@@ -1025,16 +1027,19 @@ img.left-img
 
   .service-card {
     max-width: 340px;
-    min-height: 280px;
     padding: 30px 20px;
   }
 
   .service-card-title {
-    font-size: 22px;
+    font-size: 36px;
   }
 
   .service-card-text {
-    font-size: 13px;
+    font-size: 20px;
+  }
+
+  .service-tag{
+    font-size: 18px;
   }
 
 
@@ -1169,7 +1174,7 @@ img.left-img
 
   .service-card {
     max-width: 320px;
-    min-height: 270px;
+    min-height: 340px;
     padding: 28px 18px;
   }
 
@@ -1207,9 +1212,9 @@ img.left-img
   }
 
   .faq-cta-btn {
-    width: 180px;
-    height: 60px;
-    font-size: 15px;
+    width: 190px;
+    height: 50px;
+    font-size: 18px;
     padding: 9px 20px;
   }
 
@@ -1424,6 +1429,7 @@ img.left-img
 
   .faq-cta-btn {
     width: 160px;
+    height: 50px;
     font-size: 15px;
     padding: 8px 16px;
     gap: 35px;
@@ -1492,11 +1498,8 @@ img.left-img
     padding: 44px 34px 40px;
   }
 
-
-
 .footer-text{
-    font-size: 11px;
-    line-height: 1.7;
+    font-size: 13px;
   }
   .btn-submit{
     width: 240px;
