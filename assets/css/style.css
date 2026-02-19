@@ -1493,54 +1493,7 @@ img.left-img
     padding: 44px 34px 40px;
   }
 
-.contact-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-}
 
-.contact-left{
-   order: 1; 
-   max-width: 100%; 
-   text-align: center; 
-  }
-.contact-right{ 
-  order: 2; width: 
-  100%; display: flex;
-  justify-content: center; 
-}
-.contact-info{
-   order: 3; 
-  }
-
-.contact-info{
-  flex-direction: row;
-  justify-content: center;
-  gap: 24px;
-  width: 100%;
-  max-width: 640px;
-  margin: 26px auto 0;
-}
-
-.contact-info .contact-info-row{
-  flex: 1 1 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: left;
-  gap: 12px;
-  min-width: 0;
-}
-
-.contact-info .contact-icon{
-  width: 52px;
-  height: 52px;
-}
-
-.contact-info .contact-info-text{
-  width: 100%;
-}
 
 .footer-text{
     font-size: 11px;
@@ -1585,21 +1538,35 @@ img.left-img
     max-width: 640px;
     margin: 24px auto 0;
     display: flex;
-    justify-content: space-between;
-    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
   }
 
   .contact-info-row{
-    flex: 1 1 0;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 14px;
+    justify-content: flex-start;
+    gap: 16px;
+    width: 220px;
   }
 
 
 
+  .contact-info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
   .contact-info-label{
-    font-size: 18px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .contact-info-value {
+    font-size: 15px;
   }
 
   .footer-text
@@ -2176,7 +2143,7 @@ img.left-img
   
 .contact-info .contact-info-value
 {
-  font-size: 12px; 
+  font-size: 15px; 
 }
 
 .contact-info .contact-icon{
