@@ -944,12 +944,12 @@ img.left-img
 
   .hero-card-title
   {
-    font-size: 25px;
+    font-size: 33px;
   }
 
     .hero-card-text
   {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .service-tag
@@ -1675,7 +1675,7 @@ img.left-img
   }
 
   .doctor-text{
-    width: 57%;
+    width: 60%;
     padding: 30px;
   }
 
