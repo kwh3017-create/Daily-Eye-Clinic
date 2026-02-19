@@ -128,7 +128,7 @@ a {
 }
 
 .hero {
-  background-color: #1f2743;
+  background-color: #262E43;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -242,7 +242,6 @@ img.left-img
 
 .hero-card-text {
   font-size: 30px;
-  opacity: 0.9;
   margin-top: 20px;
 }
 
@@ -289,8 +288,8 @@ img.left-img
 .hero-stat-panel {
   max-width: 1060px;
   margin: 0 auto;
-  background: rgba(217, 217, 217, 0.6);
-  border: 1px solid #fff;
+  background: rgba(217, 217, 217, 0.3);
+  border: none;
 }
 
 .hero-stat-row {
@@ -300,7 +299,7 @@ img.left-img
 .hero-stat-box {
   flex: 1;
   padding: 26px 40px;
-  border-left: 1px solid #fff;
+  border: 1px solid #fff;
 }
 
 .hero-stat-box:first-child {
@@ -359,7 +358,7 @@ img.left-img
 
 .doctor-text {
   position: relative;
-  width: 60%;
+  width: 54%;
   z-index: 1;
   padding: 40px;
 }
@@ -881,10 +880,11 @@ img.left-img
 }
 
 .footer-text {
-  font-size: 18px;
-  color: #bbbbbb;
+  font-size: 15px;
+  color: #fff;
   text-align: center;
-  line-height: 1.8;
+  line-height: 1.5;
+
 }
 
 .faq-acc .faq-item{
@@ -996,11 +996,6 @@ img.left-img
   }
   .doctor-container {
     padding: 70px 20px;
-  }
-
-  .doctor-text {
-    max-width: 480px;
-    margin-left: 40px;
   }
 
   .doctor-list{
@@ -2175,10 +2170,6 @@ img.left-img
   gap: 18px;
 }
 
-.hero-stat-box{
-  border: 1px solid rgba(255,255,255,0.35) !important;
-  background: transparent;
-}
 
 .hero-stat-box::before{
   content: none !important;
