@@ -1670,7 +1670,7 @@ img.left-img
   }
 
   .doctor-container{
-    padding: 0;
+    padding: 60px 0 52px;
     min-height: auto;
   }
 
@@ -1951,7 +1951,7 @@ img.left-img
   }
 
   .doctor-name{
-    font-size: 22px;
+    font-size: 28px;
     margin-bottom: 12px;
   }
 
