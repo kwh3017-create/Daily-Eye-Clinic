@@ -1066,7 +1066,7 @@ img.left-img
   .hero-card-title
   {
     font-size: 32px;
-    margin-top: 3px;
+    margin-top: -20px;
   }
 
   .hero-card-text
@@ -1253,6 +1253,11 @@ img.left-img
 
   .hero-desc{
     display: none;
+  }
+
+  .hero-card-title
+  {
+    font-size: 28px;
   }
 
   .hero-stat-lead{
@@ -1586,8 +1591,7 @@ img.left-img
 
   .hero-card-frame{
     aspect-ratio: auto;
-    padding: 16px;    
-    margin-bottom: 24px;
+    padding: 16px;
   }
 
   .hero-card-frame img{
@@ -1599,12 +1603,13 @@ img.left-img
 
   .hero-card-title
   {
-    margin-top: 10px;
+    font-size: 28px;
+    margin-top: -15px;
   }
 
    .hero-card-text
   {
-    margin-top: 10px;
+    margin-top: -10px;
   }
 
   .hero{  
@@ -1620,7 +1625,7 @@ img.left-img
     font-size: 18px;
   }
   .hero-stat-main{ 
-    font-size: 36px;
+    font-size: 32px;
     margin-bottom: 24px;
   }
 
@@ -1883,12 +1888,11 @@ img.left-img
   }
 
   .hero-card-frame{
-    margin-bottom: 22px;
+    margin-bottom: -22px;
   }
 
   .hero-card-title{
-    font-size: 25px;
-    margin-top: -16px;
+    font-size: 22px;
   }
 
   .hero-card-text{
@@ -1916,7 +1920,7 @@ img.left-img
   }
 
   .doctor-section{
-    background-position: 20% center;
+    background-position: 30% center;
     min-height: 38vh;
   }
 
