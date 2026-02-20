@@ -1073,13 +1073,13 @@ img.left-img
 
   .hero-card-title
   {
-    font-size: 25px;
+    font-size: 32px;
     margin-top: 3px;
   }
 
   .hero-card-text
   {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 3px;
   }
 
@@ -1628,10 +1628,10 @@ img.left-img
   }
 
   .hero-stat-lead{ 
-    font-size: 16px;
+    font-size: 18px;
   }
   .hero-stat-main{ 
-    font-size: 34px;
+    font-size: 36px;
     margin-bottom: 24px;
   }
 
@@ -1650,14 +1650,14 @@ img.left-img
 
 
   .hero-stat-label{ 
-    font-size: 16px; 
+    font-size: 20px; 
   }
   .hero-stat-value{
-    font-size: 16px; 
+    font-size: 18px; 
   }
 
   .hero-stat-right{
-    font-size: 16px; 
+    font-size: 18px; 
   }
 
   .hero-stat-impact{ 
@@ -1676,8 +1676,8 @@ img.left-img
   }
 
   .doctor-text{
-    width: 52%;
-    padding: 0 10px;
+    width: 50%;
+    padding: 0 5px;
   }
 
   .doctor-eyebrow{
@@ -1871,7 +1871,7 @@ img.left-img
 
 @media (max-width:414px){
 .hero-title{
-    font-size: 30px;
+    font-size: 36px;
   }
 
   .hero-desc{
@@ -1898,12 +1898,12 @@ img.left-img
   }
 
   .hero-card-title{
-    font-size: 22px;
+    font-size: 25px;
     margin-top: -16px;
   }
 
   .hero-card-text{
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .hero-stat-wrap{
@@ -1911,7 +1911,7 @@ img.left-img
   }
 
   .hero-stat-main{
-    font-size: 30px; 
+    font-size: 38px; 
   }
 
   .hero-stat-panel{
@@ -1923,7 +1923,7 @@ img.left-img
   }
 
   .hero-stat-impact{ 
-    font-size: 34px; 
+    font-size: 36px; 
   }
 
   .doctor-section{
@@ -2145,7 +2145,7 @@ img.left-img
 }
 
 .footer-text{
-    font-size: 13px;
+    font-size: 14px;
   }
   .btn-submit{
     width: 220px;
