@@ -1675,8 +1675,8 @@ img.left-img
   }
 
   .doctor-text{
-    width: 57%;
-    padding: 20px;
+    width: 52%;
+    padding: 0 20px;
   }
 
   .doctor-eyebrow{
@@ -1931,7 +1931,7 @@ img.left-img
   }
 
   .doctor-container{
-    padding: 0;
+    padding: 60px 0 52px;
   }
 
 
