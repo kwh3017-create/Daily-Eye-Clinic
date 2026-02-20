@@ -2165,6 +2165,11 @@ img.left-img
 
 
 @media (max-width:390px){
+
+  .hero-title
+  {
+    font-size: 32px;
+  }
   .doctor-text{
     width: 58%;
     padding: 0;
