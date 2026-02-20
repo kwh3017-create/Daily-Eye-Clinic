@@ -1921,12 +1921,12 @@ img.left-img
   }
 
   .doctor-container{
-    padding: 60px 0 50px;
+    padding: 60px 0 52px;
   }
 
   .doctor-text{
     width: 50%;
-    padding: 0;
+    padding: 0 10px;
   }
 
   .doctor-eyebrow{
