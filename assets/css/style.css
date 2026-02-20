@@ -2162,6 +2162,27 @@ img.left-img
   content: none !important;
 }
 
+
+
+@media (max-width:390px){
+  .doctor-text{
+    width: 58%;
+    padding: 0 12px;
+  }
+
+  .doctor-eyebrow{
+    font-size: 12px;
+  }
+
+  .doctor-name{
+    font-size: 27px;
+  }
+
+  .doctor-list{
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
 @media (max-width:540px){
   .hero-stat-row{
     gap: 14px;
