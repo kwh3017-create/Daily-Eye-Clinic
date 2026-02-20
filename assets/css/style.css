@@ -339,25 +339,27 @@ img.left-img
 .doctor-container {
   position: relative;
   width: 100%;
-  height: 100%;
   min-height: 100vh;
-  padding: 0;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-right: 10%;
+
+  /* ✅ 1280/1440 등에서 흔들리던 원인(percentage padding) 제거 */
+  padding-right: 0;
+
+  /* `.container`(max-width:1100, padding:0 20px)와 정렬 기준을 맞춤 */
+  padding: 0 20px;
 }
 
 .doctor-container img {
   display: none;
 }
-
-
 .doctor-text {
   position: relative;
-  width: 54%;
+  width: 100%;
+  max-width: 520px;
   z-index: 1;
-  padding: 40px;
+  padding-left: 45px;
 }
 
 .doctor-eyebrow {
@@ -1305,13 +1307,13 @@ img.left-img
   }
 
   .doctor-text {
-    max-width: 100%;
+    max-width: 50%;
     margin-left: 0;
     padding: 30px;
   }
 
   .doctor-eyebrow {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .doctor-name {
@@ -1319,11 +1321,11 @@ img.left-img
   }
 
   .doctor-name-small {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .doctor-list {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   /* doctor-bottom */
@@ -1332,7 +1334,7 @@ img.left-img
   }
 
   .doctor-bottom-desc {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
   }
 
@@ -1448,12 +1450,12 @@ img.left-img
   }
 
   .faq-answer-title {
-    font-size: 17px;
+    font-size: 19px;
     margin-bottom: 9px;
   }
 
   .faq-answer-text {
-    font-size: 15px;
+    font-size: 17px;
   }
 
 
@@ -1500,7 +1502,6 @@ img.left-img
     align-items: center;
   }
 
-/* stack layout */
   .contact-container{
     display: flex;
     flex-direction: column;
@@ -1565,7 +1566,7 @@ img.left-img
 
   .footer-text
   {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 
@@ -1834,12 +1835,12 @@ img.left-img
   }
 
   .faq-answer-title {
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 10px;
   }
 
   .faq-answer-text {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.8;
   }
 
@@ -1902,7 +1903,7 @@ img.left-img
   }
 
   .hero-card-text{
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .hero-stat-wrap{
@@ -1973,7 +1974,7 @@ img.left-img
   }
 
   .doctor-bottom-desc {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 14px;
   }
 
@@ -2144,7 +2145,7 @@ img.left-img
 }
 
 .footer-text{
-    font-size: 12px;
+    font-size: 13px;
   }
   .btn-submit{
     width: 220px;
