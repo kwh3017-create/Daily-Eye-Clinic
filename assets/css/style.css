@@ -1,4 +1,4 @@
-@import url("/assets/css/font.css");
+@import url("font.css");
 
 * {
   margin: 0;
@@ -73,7 +73,6 @@ a {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-
 .btn-primary {
   display: inline-block;
   padding: 10px 28px;
@@ -138,7 +137,6 @@ a {
   text-align: center;
   padding: 50px 0 80px;
 }
-
 
 .hero-title {
   font-size: 71px;
@@ -245,7 +243,6 @@ img.left-img
   margin-top: 20px;
 }
 
-
 .hero-stat-wrap {
   position: relative;
   width: 100%;
@@ -302,7 +299,6 @@ img.left-img
   border: 1px solid #fff;
 }
 
-
 .hero-stat-label {
   font-size: 24px;
   margin-bottom: 12px;
@@ -318,7 +314,6 @@ img.left-img
   font-weight: 300;
   color: #a9d5e5;
 }
-
 
 .doctor-section {
   position: relative;
@@ -381,7 +376,6 @@ img.left-img
   font-weight: 500;
   color: var(--color-font-sub);
 }
-
 
 .doctor-bottom {
   text-align: center;
@@ -457,7 +451,6 @@ img.left-img
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
 .service-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -466,7 +459,6 @@ img.left-img
 .card-light { background-color: #59a9ff; }
 .card-mid   { background-color: #0074ff; }
 .card-deep  { background-color: #0034c8; }
-
 
 .service-card-title {
   font-size: 40px;
@@ -487,14 +479,11 @@ img.left-img
 }
 
 .service-tag-row .service-tag{
-  display :flex;          
+  display :flex;
   justify-content:center;
   align-items:center;
   box-sizing:border-box;
 }
-
-
-
 
 .service-tag {
   display: inline-block;
@@ -584,7 +573,7 @@ img.left-img
 }
 
 .faq-panel{
-  display: none;         
+  display: none;
   margin-bottom: 14px;
 }
 
@@ -597,7 +586,7 @@ img.left-img
 }
 
 .faq-acc.is-open .faq-item{
-  transform: none;        
+  transform: none;
 }
 .faq-plus{
   transition: transform 0.2s ease;
@@ -654,7 +643,6 @@ img.left-img
 {
   font-size: 16px;
 }
-
 
 .contact {
   background-color: #dfe0e4;
@@ -719,7 +707,6 @@ img.left-img
   box-shadow: 0 8px 20px rgba(40, 81, 226, 0.4);
   background-color: #1a3bb8;
 }
-
 
 .contact-info-text {
   flex: 1;
@@ -823,7 +810,6 @@ img.left-img
   outline: none;
 }
 
-
 .form-row textarea {
   border-radius: 16px;
   resize: vertical;
@@ -907,7 +893,6 @@ img.left-img
   transform: rotate(45deg);
 }
 
-
 @media (max-width:1280px){
 /* hero */
   .hero-card-row{
@@ -954,12 +939,11 @@ img.left-img
     font-size: 16px;
   }
 
-
   /* 광고 */
   .hero-stat-lead{
-     font-size: 26px; 
+     font-size: 26px;
   }
-  .hero-stat-main{ 
+  .hero-stat-main{
     font-size: 60px;
   }
 
@@ -971,17 +955,17 @@ img.left-img
     padding: 22px 28px;
   }
 
-  .hero-stat-label{ 
-    font-size: 20px; 
-  }
-  .hero-stat-value{ 
+  .hero-stat-label{
     font-size: 20px;
   }
-  .hero-stat-right{ 
-    font-size: 20px; 
+  .hero-stat-value{
+    font-size: 20px;
   }
-  .hero-stat-impact{ 
-    font-size: 48px; 
+  .hero-stat-right{
+    font-size: 20px;
+  }
+  .hero-stat-impact{
+    font-size: 48px;
   }
 
   /* doctor */
@@ -1031,7 +1015,6 @@ img.left-img
     font-size: 18px;
   }
 
-
 }
 
 @media (max-width:1024px){
@@ -1075,11 +1058,10 @@ img.left-img
     margin-top: 3px;
   }
 
-
   .hero-stat-lead{
-     font-size: 24px; 
+     font-size: 24px;
   }
-  .hero-stat-main{ 
+  .hero-stat-main{
     font-size: 52px;
   }
 
@@ -1091,17 +1073,17 @@ img.left-img
     padding: 20px 24px;
   }
 
-  .hero-stat-label{ 
-    font-size: 18px; 
-  }
-  .hero-stat-value{ 
+  .hero-stat-label{
     font-size: 18px;
   }
-  .hero-stat-right{ 
-    font-size: 18px; 
+  .hero-stat-value{
+    font-size: 18px;
   }
-  .hero-stat-impact{ 
-    font-size: 45px; 
+  .hero-stat-right{
+    font-size: 18px;
+  }
+  .hero-stat-impact{
+    font-size: 45px;
   }
 
   /* doctor */
@@ -1261,10 +1243,10 @@ img.left-img
   }
 
   .hero-stat-lead{
-    font-size: 22px; 
+    font-size: 22px;
   }
 
-  .hero-stat-main{ 
+  .hero-stat-main{
     font-size: 48px;
   }
 
@@ -1276,22 +1258,22 @@ img.left-img
     padding: 20px 24px;
   }
 
-  .hero-stat-label{ 
-    font-size: 16px; 
-  }
-  .hero-stat-value{ 
+  .hero-stat-label{
     font-size: 16px;
   }
-  .hero-stat-right{ 
-    font-size: 16px; 
+  .hero-stat-value{
+    font-size: 16px;
   }
-  .hero-stat-impact{ 
-    font-size: 39px; 
+  .hero-stat-right{
+    font-size: 16px;
+  }
+  .hero-stat-impact{
+    font-size: 39px;
   }
 
   /* doctor */
   .doctor-section {
-    background-position: 20% center; 
+    background-position: 20% center;
     min-height: 50vh;
   }
 
@@ -1452,7 +1434,6 @@ img.left-img
     font-size: 17px;
   }
 
-
   .contact-container{
     flex-direction: column;
     align-items: center;
@@ -1541,8 +1522,6 @@ img.left-img
     width: 220px;
   }
 
-
-
   .contact-info-text {
     display: flex;
     flex-direction: column;
@@ -1568,8 +1547,8 @@ img.left-img
 .hero-card-row{
     flex-direction: column;
     align-items: center;
-    gap: 60px;               
-    margin-top: 40px;      
+    gap: 60px;
+    margin-top: 40px;
   }
 
   .hero-card{
@@ -1612,19 +1591,18 @@ img.left-img
     margin-top: -10px;
   }
 
-  .hero{  
+  .hero{
     min-height: auto;
   }
-
 
   .hero-stat-wrap{
     padding: 70px 0 60px;
   }
 
-  .hero-stat-lead{ 
+  .hero-stat-lead{
     font-size: 18px;
   }
-  .hero-stat-main{ 
+  .hero-stat-main{
     font-size: 32px;
     margin-bottom: 24px;
   }
@@ -1642,20 +1620,19 @@ img.left-img
     border: 1px solid #fff;
   }
 
-
-  .hero-stat-label{ 
-    font-size: 20px; 
+  .hero-stat-label{
+    font-size: 20px;
   }
   .hero-stat-value{
-    font-size: 18px; 
+    font-size: 18px;
   }
 
   .hero-stat-right{
-    font-size: 18px; 
+    font-size: 18px;
   }
 
-  .hero-stat-impact{ 
-    font-size: 38px; 
+  .hero-stat-impact{
+    font-size: 38px;
   }
 
   /* doctor */
@@ -1873,7 +1850,7 @@ img.left-img
   }
 
   .hero-card-row{
-    gap: 48px;        
+    gap: 48px;
     margin-top: 32px;
   }
 
@@ -1904,7 +1881,7 @@ img.left-img
   }
 
   .hero-stat-main{
-    font-size: 38px; 
+    font-size: 38px;
   }
 
   .hero-stat-panel{
@@ -1915,8 +1892,8 @@ img.left-img
     padding: 18px 16px;
   }
 
-  .hero-stat-impact{ 
-    font-size: 36px; 
+  .hero-stat-impact{
+    font-size: 36px;
   }
 
   .doctor-section{
@@ -2089,7 +2066,6 @@ img.left-img
     font-size: 14px;
   }
 
-
   .faq-list{
     margin-top: 0;
   }
@@ -2128,10 +2104,10 @@ img.left-img
   {
     font-size: 16px;
   }
-  
+
 .contact-info .contact-info-value
 {
-  font-size: 15px; 
+  font-size: 15px;
 }
 
 .contact-info .contact-icon{
@@ -2151,7 +2127,6 @@ img.left-img
   }
 }
 
-
 .hero-stat-panel{
   padding: 18px;
   box-sizing: border-box;
@@ -2161,12 +2136,9 @@ img.left-img
   gap: 18px;
 }
 
-
 .hero-stat-box::before{
   content: none !important;
 }
-
-
 
 @media (max-width:390px){
 
