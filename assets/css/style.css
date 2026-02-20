@@ -343,12 +343,7 @@ img.left-img
   display: flex;
   align-items: center;
   justify-content: flex-end;
-
-  /* ✅ 1280/1440 등에서 흔들리던 원인(percentage padding) 제거 */
-  padding-right: 0;
-
-  /* `.container`(max-width:1100, padding:0 20px)와 정렬 기준을 맞춤 */
-  padding: 0 20px;
+  padding: 120px 0 110px;
 }
 
 .doctor-container img {
@@ -994,7 +989,7 @@ img.left-img
     background-position: 20% center;
   }
   .doctor-container {
-    padding: 70px 20px;
+    padding: 120px 0 110px;
   }
 
   .doctor-list{
@@ -1037,9 +1032,6 @@ img.left-img
   }
 
 
-  /* doctor height override (responsive) */
-  .doctor-section{ min-height: auto !important; height: auto; }
-  .doctor-container{ min-height: auto !important; height: auto; }
 }
 
 @media (max-width:1024px){
@@ -1117,7 +1109,7 @@ img.left-img
     background-position: 25% center;
   }
   .doctor-container {
-    padding: 60px 20px;
+    padding: 120px 0 110px;
   }
 
   .doctor-text {
@@ -1232,9 +1224,6 @@ img.left-img
     font-size: 15px;
   }
 
-
-  .doctor-section{ min-height: auto !important; height: auto; }
-  .doctor-container{ min-height: auto !important; height: auto; }
 }
 
 @media (max-width:768px){
@@ -1302,7 +1291,7 @@ img.left-img
   }
 
   .doctor-container {
-    padding: 50px 20px;
+    padding: 120px 0 110px;
     min-height: auto;
   }
 
@@ -1666,22 +1655,22 @@ img.left-img
 
   /* doctor */
   .doctor-section{
-    min-height: 60vh;
+    min-height: 50vh;
     background-position: 12% center;
   }
 
   .doctor-container{
-    padding: 60px 0 52px;
+    padding: 70px 0 62px;
     min-height: auto;
   }
 
   .doctor-text{
     width: 50%;
-    padding: 0 5px;
+    padding: 0 25px;
   }
 
   .doctor-eyebrow{
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 8px;
   }
 
@@ -1696,16 +1685,16 @@ img.left-img
   }
 
   .doctor-name{
-    font-size: 30px;
+    font-size: 32px;
     margin-bottom: 15px;
   }
 
   .doctor-name-small{
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .doctor-list{
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /* doctor-bottom */
@@ -1928,14 +1917,17 @@ img.left-img
 
   .doctor-section{
     background-position: 20% center;
-    min-height: 50vh;
+    min-height: 38vh;
   }
 
   .doctor-container{
     padding: 60px 0 52px;
   }
 
-
+  .doctor-text{
+    width: 50%;
+    padding: 0;
+  }
 
   .doctor-eyebrow{
     font-size: 14px;
