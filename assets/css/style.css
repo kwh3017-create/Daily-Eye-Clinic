@@ -250,7 +250,7 @@ img.left-img
   position: relative;
   width: 100%;
   padding: 120px 0 110px;
-  background-image: url("assets/img/blackeye.png");
+  background-image: url("../img/blackeye.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -326,7 +326,7 @@ img.left-img
   padding: 0;
   overflow: hidden;
   min-height: 100vh;
-  background-image: url("assets/img/doctor.png");
+  background-image: url("../img/doctor.png");
   background-size: cover;
   background-position: 20% center;
   background-repeat: no-repeat;
