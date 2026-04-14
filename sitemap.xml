@@ -7,9 +7,9 @@
 <!-- www.check-domains.com sitemap generator -->
 
 <url>
-   <loc>https://daily-eye-clinic.netlify.app/</loc>
-   <lastmod>2026-04-14T01:29:59+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>1.0000</priority>
-</url>
+    <loc>https://daily-eye-clinic.netlify.app/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
 </urlset>
