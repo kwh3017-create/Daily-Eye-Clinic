@@ -1,4 +1,5 @@
 $(function () {
+  alert('이 페이지는 개인포트폴리오 사이트입니다.');
 
   $(".faq-item").on("click", function () {
 
